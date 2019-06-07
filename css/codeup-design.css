@@ -8,6 +8,7 @@ div.logo-bg {
     text-align: center;
     height: 50px;
     padding-bottom: 160px;
+    margin-bottom: 240px;
 }
 span.logo {
     height: 350px;
@@ -19,4 +20,66 @@ span.logo {
     background-size: 108%;
     position: relative;
     top: -65px;
+}
+p.codeup {
+    font-size: 48px;
+    font-family: 'Abel', sans-serif;
+    margin-top: -50px;
+}
+
+li {
+    font-family: 'Abel', sans-serif;
+    font-size: 26px;
+}
+
+a:link {
+    color: black;
+}
+h1{
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.circle {
+    height: 275px;
+    width: 275px;
+    border: 18px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    line-height: 225px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.red {
+   background-color: #E6563B;
+}
+.orange {
+    background-color: #EB9D3A;
+}
+.green {
+    background-color: #7CB06C;
+}
+.blue {
+    background-color: #00ABA9;
+}
+
+div.container-fluid {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 26px;
+}
+div.container-fluid p {
+    margin-top: 250px;
 }
