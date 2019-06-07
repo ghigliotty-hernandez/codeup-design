@@ -1,15 +1,18 @@
 body {
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
     margin: 0;
 }
+/*  extra smol  */
+
 div.logo-bg {
-    margin-top: 100px;
-    background-color: #F0F0F0;
+    margin-top: 110px;
+    background-color: white;
     text-align: center;
     height: 50px;
-    padding-bottom: 160px;
-    margin-bottom: 240px;
+    padding-bottom: 180px;
+    margin-bottom: 210px;
 }
+
 span.logo {
     height: 350px;
     width: 350px;
@@ -19,10 +22,11 @@ span.logo {
     display: inline-block;
     background-size: 108%;
     position: relative;
-    top: -65px;
+    top: -75px;
 }
+
 p.codeup {
-    font-size: 48px;
+    font-size: 64px;
     font-family: 'Abel', sans-serif;
     margin-top: -50px;
 }
@@ -35,14 +39,16 @@ li {
 a:link {
     color: black;
 }
-h1{
+
+h1 {
     font-size: 64px;
     font-family: 'Anton', sans-serif;
     text-align: center;
     margin-top: 100px;
 }
+
 h2 {
-    font-size: 48px;
+font-size: 48px;
     font-family: 'Anton', sans-serif;
     text-align: center;
     margin-top: 100px;
@@ -62,15 +68,19 @@ h2 {
     margin-left: 30px;
     margin-top: 15px;
 }
+
 .red {
-   background-color: #E6563B;
+    background-color: #E6563B;
 }
+
 .orange {
     background-color: #EB9D3A;
 }
+
 .green {
     background-color: #7CB06C;
 }
+
 .blue {
     background-color: #00ABA9;
 }
@@ -79,7 +89,40 @@ div.container-fluid {
     text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 26px;
+    width: 660px;
 }
+
 div.container-fluid p {
     margin-top: 250px;
 }
+
+img {
+    border: 10px solid #E6E6E6;
+    border-radius: 6px;
+}
+
+.circle-tiny {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.mobile-footer {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.mobile-footer-left {
+    text-align: left;
+}
+.mobile-footer-right {
+    text-align: right;
+    padding-right: 0;
+}
+/* smol  */
+
