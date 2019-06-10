@@ -1,6 +1,8 @@
 body {
     background-color: #F0F0F0;
     margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 /*  extra smol  */
 
@@ -9,20 +11,21 @@ div.logo-bg {
     background-color: white;
     text-align: center;
     height: 50px;
-    padding-bottom: 180px;
-    margin-bottom: 210px;
+    padding-bottom: 125px;
+    margin-bottom: 160px;
+    width: 100%;
 }
 
 span.logo {
-    height: 350px;
-    width: 350px;
+    height: 210px;
+    width: 210px;
     background-image: url("../assets/logo.jpg");
     background-position: center;
     border-radius: 50%;
     display: inline-block;
     background-size: 108%;
     position: relative;
-    top: -75px;
+    top: -45px;
 }
 
 p.codeup {
@@ -55,18 +58,18 @@ font-size: 48px;
 }
 
 .circle {
-    height: 275px;
-    width: 275px;
-    border: 18px solid white;
+    height: 236px;
+    width: 236px;
+    border: 13px solid white;
     border-radius: 50%;
     display: inline-block;
     color: white;
     font-family: 'Anton', sans-serif;
     font-size: 48px;
     text-align: center;
-    line-height: 225px;
-    margin-left: 30px;
-    margin-top: 15px;
+    line-height: 205px;
+    /*margin-left: 30px;*/
+    /*margin-top: 15px;*/
 }
 
 .red {
@@ -85,22 +88,32 @@ font-size: 48px;
     background-color: #00ABA9;
 }
 
-div.container-fluid {
+div.circle-div {
     text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 26px;
     width: 660px;
+    padding: 0 100px 0 0;
+    margin-left: 0;
 }
 
-div.container-fluid p {
-    margin-top: 250px;
-}
-
-img {
+.container-fluid>img {
     border: 10px solid #E6E6E6;
     border-radius: 6px;
 }
-
+div.mobile-bottom {
+    width: 90%;
+    font-family: Abel, sans-serif;
+    font-size: 26px;
+}
+div.mobile-bottom>img {
+    width: 100%;
+}
+div.mobile-bottom>p {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 240px;
+}
 .circle-tiny {
     height: 50px;
     width: 50px;
