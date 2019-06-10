@@ -258,7 +258,8 @@ span.logo-smol {
     font-size: 38px;
     font-family: 'Abel', sans-serif;
     margin-top: -130px;
-    margin-left: -360px;
+    margin-left: 120px;
+    text-align: left;
 }
 .navbar-right {
     margin-right: -460px;
@@ -270,4 +271,11 @@ span.logo-smol {
 hr.big-hr {
     width: 750px;
     height: 50px;
+}
+p.selected-work {
+    font-family: Abel, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
