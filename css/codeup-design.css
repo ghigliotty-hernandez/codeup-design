@@ -93,8 +93,6 @@ div.circle-div {
     font-family: 'Abel', sans-serif;
     font-size: 26px;
     width: 660px;
-    padding: 0 100px 0 0;
-    margin-left: 0;
 }
 
 .container-fluid>img {
@@ -107,7 +105,7 @@ div.mobile-bottom {
     font-size: 26px;
 }
 div.mobile-bottom>img {
-    width: 100%;
+    width: 50%;
 }
 div.mobile-bottom>p {
     text-align: center;
@@ -139,3 +137,80 @@ div.mobile-bottom>p {
 }
 /* smol  */
 
+div.logo-bg {
+    line-height: 110px;
+}
+
+h1 {
+    font-size: 52px;
+    margin-top: 32px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.circle {
+    height: 130px;
+    width: 130px;
+    border: 8px solid white;
+    font-size: 24px;
+    line-height: 110px;
+}
+
+.circle-div {
+    text-align: center;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+div.mobile-bottom>p {
+    margin-top: 20px;
+}
+
+hr {
+    width: 480px;
+    height: 5px;
+}
+.mobile-bottom>p {
+    font-size: 16px;
+}
+.small-picture-div>img {
+    width: 100%;
+}
+.small-picture-div div {
+    font-size: 16px;
+}
+.circle-tiny {
+    height: 18px;
+    width: 18px;
+    font-size: 10px;
+    line-height: 18px;
+}
+.mobile-footer-left {
+    padding: 0;
+    width: 49%;
+}
+.mobile-footer-right {
+    padding-right: 10px;
+    width: 49%;
+}
+.mobile-footer {
+    box-sizing: border-box;
+}
+img.man {
+    height: 160px;
+}
+.small-picture-div>img {
+    border: 5px solid #E6E6E6;
+    border-radius: 5px;
+}
+.small-picture-div {
+    height: 250px;
+    box-sizing: content-box;
+}
+/*.picture-col {*/
+/*    padding: 0 20px;*/
+/*}*/
